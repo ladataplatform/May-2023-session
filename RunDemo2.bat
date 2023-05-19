@@ -1,0 +1,2 @@
+cd "C:\Program Files (x86)\Microsoft Corporation\Database Experimentation Assistant\Dependencies\X64"
+ostress -E -Slocalhost\sql2019 -dContosoRetailDW -i"C:\Demo\IntroPerformanceTuning\block\*.sql" -r10 -n10
